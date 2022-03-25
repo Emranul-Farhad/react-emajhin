@@ -1,0 +1,55 @@
+.orders{
+    margin-top: 8rem;
+   margin-left: 2rem;
+}
+
+.order{
+    margin-top: 1rem;
+    position: sticky;
+    top: 0;
+} 
+
+.orders h3,p,h2{
+    color: #2A414F;
+}
+
+.btn{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+.btn1, .btn2{
+    height: 42px;
+   width: 232px;
+   margin-bottom: 10px;
+}
+
+.btn1{
+    background: #FF3030;
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+
+.btn2{
+    background: #FF9900;
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+
+.btn1:hover{
+    color: #FF3030;
+    border: 2px solid #FF3030;
+    background: transparent;
+}
+
+.btn2:hover{
+    color: #FF9900;
+    border: 2px solid #FF3030;
+    background: transparent;
+}
